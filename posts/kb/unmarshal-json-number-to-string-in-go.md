@@ -1,5 +1,5 @@
 Unmarshal JSON Number to string field in Go
-19 Mar 17 14:07 +0200
+21 May 17 13:07 +0200
 golang, kb, knowledge base, json
 
 +++
