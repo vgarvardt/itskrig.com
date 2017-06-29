@@ -1,4 +1,4 @@
-FROM vgarvardt/rklotz:0.5.0
+FROM vgarvardt/rklotz:0.5.1
 
 ENV UI_DESCRIPTION "itsKrig - blog of Vladimir Garvardt on Programming, Life, the Universe and Everything"
 ENV UI_TITLE "itsKrig"
