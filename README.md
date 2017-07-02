@@ -32,3 +32,8 @@ chmod a+x /etc/sv/rklotz/log/run
 cd /etc/service
 ln -s /etc/sv/rklotz rklotz
 ```
+
+## Update to run the latest version
+
+1. Pull the latest image - `docker pull vgarvardt/itskrig.com`
+2. Kill existing running docker image (`runit` will run the new one) - `docker ps -qf "ancestor=vgarvardt/itskrig.com" | xargs docker kill`
