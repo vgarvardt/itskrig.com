@@ -22,7 +22,7 @@ echo "# keep at most n<num> log files" >> /var/log/rklotz/config
 echo "n10" >> /var/log/rklotz/config
 # create service run script
 echo "#!/bin/sh" > /etc/sv/rklotz/run
-echo "exec 2>&1 && docker run -p 80:8080 vgarvardt/itskrig.com" >> /etc/sv/rklotz/run
+echo "exec 2>&1 && docker ps -q | xargs docker kill; docker run -p 80:8080 -p 443:8443 vgarvardt/itskrig.com" >> /etc/sv/rklotz/run
 chmod a+x echo "#!/bin/sh" > /etc/sv/rklotz/run
 # create service log run script
 echo "#!/bin/sh" > /etc/sv/rklotz/log/run
