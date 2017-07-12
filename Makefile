@@ -3,3 +3,6 @@ build:
 
 run:
 	docker run -it -p 8080:8080 vgarvardt/itskrig.com
+
+push:
+	docker push vgarvardt/itskrig.com
