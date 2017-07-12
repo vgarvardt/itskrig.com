@@ -1,4 +1,4 @@
-FROM vgarvardt/rklotz:0.6.0
+FROM vgarvardt/rklotz:0.6.1
 
 ENV SSL_ENABLED "true"
 ENV SSL_HOST "itskrig.com"
@@ -8,9 +8,10 @@ ENV UI_TITLE "itsKrig"
 ENV UI_HEADING "Blog of Vladimir Garvardt"
 ENV UI_INTRO "on Programming, Life, the Universe and Everything"
 
-ENV PLUGINS_ENABLED "disqus,highlightjs,yasha,ga"
+ENV PLUGINS_ENABLED "disqus,highlightjs,yasha,ga,gtm"
 ENV PLUGINS_DISQUS "shortname:itskrig-com"
 ENV PLUGINS_GA "tracking_id:UA-11342895-3"
+ENV PLUGINS_GTM "id:GTM-M66FSRH"
 ENV PLUGINS_YASHA "services:facebook twitter gplus"
 
 # replace demo posts with the real
