@@ -1,7 +1,9 @@
-FROM vgarvardt/rklotz:0.6.1
+FROM vgarvardt/rklotz:0.7.0
 
 ENV SSL_ENABLED "true"
 ENV SSL_HOST "itskrig.com"
+
+ENV STORAGE_DSN "memory://"
 
 ENV UI_DESCRIPTION "itsKrig - blog of Vladimir Garvardt on Programming, Life, the Universe and Everything"
 ENV UI_TITLE "itsKrig"
