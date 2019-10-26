@@ -2,6 +2,7 @@ FROM vgarvardt/rklotz:0.7.3
 
 ENV SSL_ENABLED "true"
 ENV SSL_HOST "itskrig.com"
+ENV SSL_EMAIL "vgarvardt@gmail.com"
 
 ENV STORAGE_DSN "memory://"
 
