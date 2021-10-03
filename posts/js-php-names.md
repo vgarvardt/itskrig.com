@@ -1,4 +1,4 @@
-Hello Blog!
+Hypertext Preprocessor
 11 Sep 21 11:28 +0200
 php, js, javascript, thinking out loud
 
