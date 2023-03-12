@@ -26,4 +26,4 @@ RUN mkdir -p /etc/rklotz/static/misc
 ADD static/portrait.jpg /etc/rklotz/static/misc
 
 # add custom about panel file
-ADD about.html /etc/rklotz
+ADD about.tpl /etc/rklotz

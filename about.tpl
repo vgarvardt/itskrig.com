@@ -1,4 +1,4 @@
-{{ define "partial/about.html" }}
+{{ define "partial/about.tpl" }}
 <div class="callout primary">
     <div class="grid-x">
         <div class="cell small-12 medium-2 text-center">
@@ -14,7 +14,7 @@
             <ul class="no-bullet">
                 <li>
                     <a href="https://mas.to/@vgarvardt" class="btn btn-default btn-lg btn-block" target="_blank">
-                        <i class="fa-brands mastodon"></i> <span class="network-name">Mastodon</span>
+                        <i class="fa-brands fa-mastodon"></i> <span class="network-name">Mastodon</span>
                     </a>
                 </li>
                 <li>
