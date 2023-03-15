@@ -1,4 +1,4 @@
-Optimisation vs Complexity
+Die Vorhersage an JavaScript
 14 Mar 23 22:33 +0200
 deutsch, german, js, javascript
 
