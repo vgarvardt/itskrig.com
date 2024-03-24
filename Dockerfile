@@ -1,4 +1,4 @@
-FROM vgarvardt/rklotz:0.14.1
+FROM vgarvardt/rklotz:0.15.0
 
 ENV SSL_ENABLED "true"
 ENV SSL_HOST "itskrig.com"
