@@ -1,4 +1,4 @@
-Einberufung in Finnland, Duetsche Bahn und DHL
+Einberufung in Finnland, Deutsche Bahn und DHL
 13 Apr 24 21:16 +0200
 deutsch, german, general thoughts, thinking out loud
 
